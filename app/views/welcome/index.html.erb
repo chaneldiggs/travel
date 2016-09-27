@@ -1,4 +1,4 @@
-<h1>Welcome to my travel site!</h1>
+<h1 class="oswald">Welcome to my travel site!</h1>
 <p>You'll find your perfect vacation</p>
 
 <p><%= @homestate %></p>
@@ -11,7 +11,7 @@
 
 <p>
 	<% @images.each do |image| %>
-		<%= image_tag image, alt: 'image', class: "travel-pics" %>
+		<%= image_tag image, alt: 'image', class: "travel-pics img-responsive" %>
 	<% end %>
 </p>
 

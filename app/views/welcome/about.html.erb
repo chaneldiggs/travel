@@ -13,3 +13,8 @@
 <% if @size > 12 %>  <%# The variable cannot be compared bc its stored as a string %>
 	<p>My feet are huge!</p>
 <% end %>
+
+<%= link_to "Green", about_path(color: "green"), class: "btn btn-success"	%>
+<%= link_to "Orange", about_path(color: "orange"), class: "btn btn-warning"	%>
+<%= link_to "Nada", about_path, class: "btn btn-default"	%>
+
